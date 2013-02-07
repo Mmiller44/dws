@@ -1,3 +1,8 @@
+* {
+	color: red;
+	font-weight: bold;
+	}	
+	
 p {
 	color: blue;
 	font: 14px Helvetica;
@@ -5,11 +10,32 @@ p {
 
 .company_name {
 	color: red;
-	font-family: helvetica;
+	font-family: Helvetica;
 	}
 	
 #subsection {
 	color: green;
-	font-family: helvetica;
+	font-family: Helvetica;
 	}
 	
+h1, h2, h3 {
+	color: purple;
+	font-family: Helvetica;
+	}
+
+ol li {
+	color: fuchsia;
+	font: 14px Helvetica;
+	}
+
+a:visited {
+	color: red;
+	}
+
+a:hover {
+	color: green;
+	}
+
+a:active {
+	color: blue;
+	}

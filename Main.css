@@ -39,3 +39,8 @@ a:hover {
 a:active {
 	color: blue;
 	}
+
+.company_name:first-line {
+	color: green;
+	}
+	

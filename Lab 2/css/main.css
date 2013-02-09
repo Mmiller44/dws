@@ -1,5 +1,18 @@
-p {
-	color: ##EE799F;
-	/*font: italic small-cap normal 16px Helvetica, Sans-serif;*/
+h1 {
+	color:red;
+	text-shadow: 4px 4px 4px #666;
 	}
 	
+
+p {
+	color: #EE799F;
+	font: normal 16px Helvetica, Sans-serif;
+	text-align: left;
+	text-decoration: none;
+	line-height: 18px;
+	
+	}
+
+ol li {
+		list-style-type: none;
+	 }

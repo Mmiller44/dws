@@ -26,9 +26,13 @@ ol li {
 	 }
 
 body {
-	background-color: red;
+	background-color: #B0C4DE;
 	}
 
 h3 {
-	font-variant: small caps;
+	font-variant: small-caps;
+	}
+
+#image {
+	opacity: 0.6;
 	}

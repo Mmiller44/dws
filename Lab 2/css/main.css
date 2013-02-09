@@ -1,5 +1,5 @@
 h1 {
-	color:red;
+	color: rgba(255, 0, 0, 0.8);
 	text-shadow: 4px 4px 4px #666;
 	}
 	
@@ -10,9 +10,18 @@ p {
 	text-align: left;
 	text-decoration: none;
 	line-height: 18px;
+	text-indent: 10px;
 	
 	}
 
 ol li {
 		list-style-type: none;
+		font-weight: bold;
+		font-family: helvetica, Georgia, Sans-serif;
+		
 	 }
+
+body {
+	background-color: red;
+	}
+	

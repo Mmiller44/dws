@@ -1,6 +1,6 @@
 h1 {
 	color: rgba(255, 10, 20, 0.8);
-	text-shadow: 4px 4px 4px #666;
+	text-shadow: 4px 4px 4px #666; 			/* This adds a drop shadow to heading1 4px */
 	letter-spacing: 1.5px;
 	}
 	
@@ -11,8 +11,8 @@ p {
 	text-align: left;
 	text-decoration: none;
 	line-height: 18px;
-	text-indent: 20px;
-	word-spacing: 1.5px;
+	text-indent: 20px;	
+	word-spacing: 1.5px; 					/* Adding 1.5px between all words. */
 	
 	}
 
@@ -28,7 +28,7 @@ ol li {
 	 }
 
 body {
-	background-color: #B0C4DE;
+	background-color: #B0C4DE;				/* Adding background color */
 	}
 
 h3 {

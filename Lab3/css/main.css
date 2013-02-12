@@ -1,0 +1,40 @@
+/*---------------------------------------------------------------------------------------------------------------------------=navigation------------------------------------------*/
+#navbar ul {
+	margin: 20px;
+	height: 44px;
+	width: 360px;
+	background: blue;
+	list-style-type: none;
+	background-repeat: no-repeat;
+	}
+
+#navbar li {
+	float: right;
+	list-style-type: none;
+	}
+	
+#navbar li a {
+	background-image: url('/Users/Miller/Desktop/Test/images/divider.jpg');
+	background-repeat: no-repeat;
+	display: block;
+	margin-top: 12px;
+	font: bold 18px helvetica;
+	padding-right: 25px;
+	padding-left: 25px;
+	text-decoration: none;
+	color: #000000;
+	}
+	
+#navbar li a:hover {
+	color: #ffffff;
+	text-decoration: none;
+	}
+
+/*---------------------------------------------------------------------------------------------------------------------------=body------------------------------------------------*/
+
+
+#main-content {
+	width: 960px;
+	margin: 0 auto;
+	background: red;
+	}

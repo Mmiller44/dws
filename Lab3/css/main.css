@@ -16,11 +16,9 @@
 	}
 	
 #navbar li a {
-	background-image: url('/Users/Miller/Desktop/Test/images/divider.jpg');
-	background-repeat: no-repeat;
 	display: block;
 	margin-top: 10px;
-	font: bold 18px helvetica;
+	font: bold 16px helvetica;
 	padding: 5px 25px 5px 25px;
 	text-decoration: none;
 	color: #000000;
@@ -33,6 +31,15 @@
 	}
 
 /*---------------------------------------------------------------------------------------------------------------------------=body------------------------------------------------*/
+* {
+	padding: 0px;
+	margin: 0px;
+	}
+
+.headings {
+	margin: 20px;
+	}
+
 header {
 	overflow: hidden;
 	}
@@ -40,16 +47,40 @@ header {
 #main-content {
 	width: 960px;
 	margin: 0 auto;
-	background: red;
+	background: #E6E7E8;
 	}
 
 #gallery {
 	width: 960px;
-	float: left;
+	float: right;
 	clear: both;
 	}
 
 .title {
+	margin: 10px 20px 20px 20px;
 	width: 200px;
 	float: left;
 	}
+
+.first_paragraph {
+	margin-left: 20px;
+	width: 450px;
+	float: left;
+	}
+
+.second_paragraph {
+	margin-right: 20px;
+	width: 450px;
+	float: right;
+	}
+
+#first_section {
+	display: block;
+	overflow: hidden;
+	}
+	
+#second_section {
+	display: block;
+	overflow: hidden:
+	}
+	

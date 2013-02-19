@@ -16,16 +16,21 @@ body {
 
 .first_section {
 	float: left;
-	margin: 45px 20px 20px 20px;
+	margin: 20px;
 	width: 450px;
 	}
 
 .second_section {
 	float: right;
-	margin: 45px 45px 20px 20px;
+	margin: 20px;
 	width: 450px;
 	}
 
 .img_center {
+	width: 750px;
 	margin: 0 auto;
+	}
+
+.header_left {
+	margin:
 	}

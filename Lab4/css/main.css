@@ -35,7 +35,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', end
 	}
 
 body {
-	background: white;
+	background-image: url ('/images/subtle.png');
+	background-color: white;
 	margin: 40px;
 	}
 

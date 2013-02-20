@@ -1,20 +1,20 @@
 /*---------------------------------------------------------------------------------------------------------------------------=navigation------------------------------------------*/
 nav ul {
 	list-style: none;
-	width: 400px;
+	width: 650px;
 	padding: 0;
 	overflow: hidden;
 	margin: 0 auto;
 }
 
 nav li{
-	width: 100px;
+	width: 85px;
 	float: left;
 }
 
 nav a{
 	background: url(../images/navbar.jpg) no-repeat;
-	background-position: -100px 0px;
+	background-position: -200px 0px;
 	display: block;
 	height: 50px;
 	text-indent: 100%;
@@ -32,30 +32,56 @@ nav a:active{
 
 /*---------------------------------- =Home-------------------------------------------*/
 .home {
-	background-position: -100px 0;
+	background-position: 0px 0;
 }
 
 .home:hover{
-	background-position: -150px -205px;
+	background-position: 0px -100px;
 }
 
 .home:active{
-		background-position: -100px -200px;
+		background-position: 0px -50px;
 }
 
 
 
 /*---------------------------------- =Product-------------------------------------------*/
 .product {
-	background-position: -100px 0;
+	background-position: -85px 0;
 }
 
 .product:hover{
-	background-position: -150px -205px;
+	background-position: -85px -100px;
 }
 
 .product:active{
-		background-position: -100px -200px;
+		background-position: -85px -50px;
+}
+
+/*---------------------------------- =Shop-------------------------------------------*/
+.shop {
+	background-position: -200px 0;
+}
+
+.shop:hover{
+	background-position: -200px -100px;
+}
+
+.shop:active{
+		background-position: -200px -50px;
+}
+
+/*---------------------------------- =Support-------------------------------------------*/
+.support {
+	background-position: -300px 0;
+}
+
+.support:hover{
+	background-position: -300px -100px;
+}
+
+.support:active{
+		background-position: -300px -50px;
 }
 
 

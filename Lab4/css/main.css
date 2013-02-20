@@ -47,15 +47,15 @@ nav a:active{
 
 /*---------------------------------- =Product-------------------------------------------*/
 .product {
-	background-position: -85px 0;
+	background-position: -90px 0;
 }
 
 .product:hover{
-	background-position: -85px -100px;
+	background-position: -90px -100px;
 }
 
 .product:active{
-		background-position: -85px -50px;
+		background-position: -90px -50px;
 }
 
 /*---------------------------------- =Shop-------------------------------------------*/
@@ -84,7 +84,7 @@ nav a:active{
 		background-position: -300px -50px;
 }
 
-
+/*-----------------------------------=Body----------------------------------------------*/
 * {
 padding: 0;
 margin: 0;

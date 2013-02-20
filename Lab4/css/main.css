@@ -1,21 +1,62 @@
 /*---------------------------------------------------------------------------------------------------------------------------=navigation------------------------------------------*/
-#nav ul {
+nav ul {
+	list-style: none;
+	width: 400px;
+	padding: 0;
+	overflow: hidden;
+	margin: 0 auto;
 }
 
-#nav li {
+nav li{
+	width: 100px;
+	float: left;
 }
 
-#nav a {
+nav a{
+	background: url(../images/navbar.jpg) no-repeat;
+	background-position: -100px 0px;
+	display: block;
+	height: 50px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+nav a:hover{
+	background-position: -200px -100px; 
+}
+
+nav a:active{
+	background-position: 0 -200px; 	
+}
+
+/*---------------------------------- =Home-------------------------------------------*/
+.home {
+	background-position: -100px 0;
+}
+
+.home:hover{
+	background-position: -150px -205px;
+}
+
+.home:active{
+		background-position: -100px -200px;
 }
 
 
 
+/*---------------------------------- =Product-------------------------------------------*/
+.product {
+	background-position: -100px 0;
+}
 
+.product:hover{
+	background-position: -150px -205px;
+}
 
-
-
-
-
+.product:active{
+		background-position: -100px -200px;
+}
 
 
 * {
@@ -35,7 +76,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', end
 	}
 
 body {
-	background-image: url ('./images/subtle.png');
+	background-image: url('subtle.png');
 	margin: 40px;
 	}
 

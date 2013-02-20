@@ -1,7 +1,7 @@
 /*---------------------------------------------------------------------------------------------------------------------------=navigation------------------------------------------*/
 nav ul {
 	list-style: none;
-	width: 650px;
+	width: 400px;
 	padding: 0;
 	overflow: hidden;
 	margin: 0 auto;
@@ -101,6 +101,10 @@ html {
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
 	}
 
+.title {
+	margin: 20px;
+	}
+	
 body {
 	background-image: url('subtle.png');
 	margin: 40px;
@@ -149,5 +153,38 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', end
 	color: white;
 	text-decoration: none;
 	}
+	
+.gallery {
+	margin: 20px;
+	list-style-type: none;
+	}
+	
+.img_right {
+	list-style-type: none;
+	margin 10px;
+	}
 
+.img_left {
+	width: 400px;
+	overflow: hidden;
+	float: right;
+	list-style-type: none;
+	}
 
+.list {
+	margin: 40px;
+	list-style-type: none;
+	}
+
+.heading {
+	float: right;
+	margin: 30px 20px 0px 20px;
+	width: 450px;
+	overflow: hidden;
+	font-family: 'Revalia', cursive;
+	line-height: 2
+	}
+	
+footer {
+	margin: 30px 20px 0px 20px;
+	}

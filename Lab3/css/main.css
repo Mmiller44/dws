@@ -19,7 +19,7 @@
 	
 #navbar li a {
 	display: block;
-	font: bold 16px helvetica;
+	font: bold 1em helvetica; /* 16px */
 	padding: 5px 5% 5px 5%; /* 5px */
 	text-decoration: none;
 	color: #000000;
@@ -104,7 +104,7 @@ header {
 	float: right;
 	}
 #list {
-	font-size: 24px;
+	font-size: 1.5em; /* 24px */
 	margin-left: 10.416666666667%; /* 100px */
 	width: 20.83333333333%; /* 200px */
 	}
@@ -139,3 +139,7 @@ ul {
 	float: right;
 	clear: bottom;
 	}
+
+/*----------------------------------------------------------------------------------------------------------------------------=Media Queries--------------------------------------*/
+
+@media only screen (min-device-width: px) and (max-device-width: px) {

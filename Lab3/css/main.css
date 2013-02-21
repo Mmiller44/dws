@@ -142,4 +142,4 @@ ul {
 
 /*----------------------------------------------------------------------------------------------------------------------------=Media Queries--------------------------------------*/
 
-@media only screen (min-device-width: px) and (max-device-width: px) {
+@media only screen and (min-width: px) and (max-width: px) {

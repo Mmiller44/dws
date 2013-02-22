@@ -140,7 +140,7 @@ ul {
 
 /*----------------------------------------------------------------------------------------------------------------------------=Media Queries--------------------------------------*/
 
-@media only screen and (min-width: 775px) and (max-width: 960px) {
+@media only screen and (min-width: 0px) and (max-width: 960px) {
 	#main-content {
 		width: 90%;
 	}
@@ -178,7 +178,7 @@ ul {
 		margin: 10px 10.416666666667% 20px 10.416666666667%; /* 100px */
 	}
 
-@media only screen and (min-width: 625px) and (max-width: 774px) {
+@media only screen and (min-width: 0px) and (max-width: 774px) {
 	#main-content {
 		width: 90%;
 		background: red;
@@ -201,7 +201,7 @@ ul {
 	}
 
 }
-@media only screen and (min-width: 500px) and (max-width: 625px) {
+@media only screen and (min-width: 0px) and (max-width: 625px) {
 	#main-content {
 		width: 90%;
 	}
@@ -286,7 +286,7 @@ ul {
 		clear: bottom;
 	}
 }
-@media only screen and (min-width: 402px) and (max-width: 500px) {
+@media only screen and (min-width: 0px) and (max-width: 500px) {
 	#main-content {
 		width: 90%;
 	}

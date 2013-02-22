@@ -45,7 +45,6 @@ max-width: 960px;
 
 html {
 background-image: url(../images/bg_pattern.png);
-opacity: 40%;
 }
 
 img {
@@ -141,7 +140,6 @@ float: left;
 margin: 20px 1.041666666667% 10px 1.041666666667%; /* 10px */
 width: 46.875%; /* 450px */
 float: right;
-clear: bottom;
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------=Media Queries--------------------------------------*/
@@ -232,6 +230,13 @@ clear: bottom;
 		float: none;
 		}
 	
+	#gallery li {
+		list-style-type: none;
+		width: 100%; /* 100px */
+		float: none;
+		margin: 10px 30% 10px 30%; /* 100px */
+}
+	
 	#footer {
 		margin-top: 20px;
 	}
@@ -308,6 +313,14 @@ clear: bottom;
 		margin: 0 10% 0 10%;
 		float: none;
 		}
+		
+
+	#gallery li {
+	list-style-type: none;
+	width: 100%; /* 100px */
+	float: none;
+	margin: 10px 10% 20px 10%; /* 100px */
+}
 	
 	#footer {
 		margin-top: 20px;

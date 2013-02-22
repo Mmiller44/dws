@@ -142,4 +142,26 @@ ul {
 
 /*----------------------------------------------------------------------------------------------------------------------------=Media Queries--------------------------------------*/
 
-@media only screen and (min-width: px) and (max-width: px) {
+@media only screen and (min-width: 942px) and (max-width: 975px) {
+	
+	#main-content {
+		width: 90%;
+
+	
+	} 
+	
+	.lower_p2 { 
+		display: block;
+		width: 61.538461538462%; /* 600px */
+		float: none;
+		margin-left: 2.083333333333%;
+	}
+	
+	.single_image {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+	
+}
+	

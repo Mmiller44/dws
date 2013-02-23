@@ -1,0 +1,136 @@
+/*------------------------------=Document-----------------------------------------------*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	background: url('../img/bg_repeat.png') repeat-x center top;
+	background-color: #7099DB;
+}
+	
+body {
+	background: url('../img/bg_shadow.png') no-repeat;
+	width: 776px;
+	margin: 0 auto;
+}
+
+#wrapper {
+	overflow: hidden;
+	position: relative;
+	background: #fff;
+	width: 760px;
+	margin: 0 auto;
+}
+
+/*------------------------------=Header-------------------------------------------------*/
+
+#header {
+	color: #fff;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 268px;
+	width: 760px;
+	background: url('../img/bg_header.jpg') no-repeat center;
+}
+
+#intellectual_business_solutions {
+	height: 50px;
+	margin-top: 10px;
+	background: url('../img/bg_intellectual_business_solutions.png') no-repeat center top;
+	border-bottom: 2px #f19f6b solid;
+	text-indent: -20000px;
+}
+
+#global {
+	border-top: 12px #016a8d solid;
+	position: relative;
+	left: 3px;
+	top: 195px;
+	z-index: 10;
+	width: 212px;
+	height: 410px;
+	background: #fff;
+}
+	
+#global_shadow {
+	height: 600px;
+	margin-left: 20px;
+	width: 215px;
+	background: url('../img/global_shadow.png');
+}
+
+#quote p {
+	background: url('../img/quote_left.gif') no-repeat top left;
+	color: #d8d8d8;
+	margin: 10px;
+	padding-left: 20px;
+}
+
+#quote {
+	background: url('../img/quote_right.gif') no-repeat bottom right;
+	color: #d8d8d8;
+}
+
+address {
+	text-align: center;
+}
+
+#phone {
+	text-align: center;
+}
+/*------------------------------=Navigation---------------------------------------------*/
+
+#nav {
+	overflow: hidden;
+}
+
+#nav li {
+	border-left: 1px #d8d8d8 solid;
+	border-bottom: 1px #d8d8d8 solid;
+	border-right: 1px #d8d8d8 solid;
+	list-style-type: none;
+	padding: 10px;
+}
+
+#nav a {
+	color: #000;
+	width: 214px;	
+	display: block;
+	font-style: italic;
+	font-size: 14px;
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	
+	
+}
+
+#nav a:hover {
+	font-style: italic;
+	font-size: 14px;
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	color: #5c87bb;
+}
+
+
+/*------------------------------=Paragraphs---------------------------------------------*/
+
+#active {
+	font-family: Arial, sans-serif;
+	color: #016a8d;
+}
+
+#content {
+	position: relative;
+	top: -332px;
+	width: 500px;
+	float: right;
+	background: url('../img/sprocket.gif') no-repeat top right;
+}
+
+
+
+
+/*------------------------------=Links--------------------------------------------------*/

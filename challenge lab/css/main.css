@@ -1,0 +1,233 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#wrapper {
+	margin: 0 auto;
+	background-color: #303123;
+	width: 960px;
+	position: relative;
+	overflow: hidden;
+}
+/*-------------------------------------------------------=Navigation--------------------*/
+
+#nav {
+	margin-top: 30px;
+	margin-right: 100px;
+	float: right;
+	width: 245px;
+	overflow: hidden;
+}
+
+#nav li {
+	float: left;
+	list-style-type: none;
+	color: #b5b3b3;
+}
+
+#nav a {
+	text-decoration: none;
+	color: #b5b3b3;
+	margin: 5px;
+}
+
+#nav a:hover{
+
+}
+
+
+#nav a:active{
+
+}
+
+#logo {
+	float: left;
+	width: 141px;
+	height: 40px;
+	margin-left: 95px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*-------------------------------------------------------=Layout------------------------*/
+
+#main_content {
+	margin: 0 auto;
+	width: 960px;
+	background: url("../images/bg_body.jpg") repeat-x center top;
+	background-color: #f5f3f3;
+	overflow: hidden;
+	}
+
+#main_content h1 {
+	color: #616161;
+	font: normal normal normal 16pt/1.5 candara, sans-serif;
+	margin-left: 108px;
+	margin-bottom: 15px;
+	padding-top: 45px;
+}
+
+#main_content p {
+	color: #616161;
+	width: 740px;
+	margin: 0 auto;
+	text-indent: 30px;
+}
+#content_border {
+	position: absolute;
+	top: 540px;
+	right: 280px;
+}
+
+#customer_reviews {
+	color: #616161;
+	font: candara, sans-serif;
+	background: url("../images/reviews.jpg") no-repeat top left;
+	width: 218px;
+	float: left;
+	margin: 28px 50px 20px 100px;
+	padding-left: 45px;
+}
+
+#customer_reviews p {
+	width: 218px;
+	float: left;
+	margin: 0px 50px 20px -45px;
+	text-indent: 0px;
+}
+
+#features {
+	color: #616161;
+	font: candara, sans-serif;
+	width: 250px;
+	float: left;
+	margin-top: 28px;
+}
+
+#features h2 {
+	background: url("../images/features.jpg") no-repeat center left;
+	padding-left: 40px;
+}
+
+#features li {
+	list-style-type: none;
+	background: url("../images/features_list.jpg") no-repeat center left;
+	padding: 20px;
+	margin-top: -06px;
+}
+
+#list_border {
+	position: absolute;
+	right: 580px;
+	top: 600px;
+}
+
+#list_border2 {
+	position: absolute;
+	right: 320px;
+	top: 600px;
+}
+
+#prices {
+	color: #616161;
+	font: candara, sans-serif;
+	float: right;
+	width: 295px;
+	margin-top: 28px;
+}
+
+#prices h2 {
+	background: url("../images/prices_logo.jpg") no-repeat center left;
+	padding-left: 40px;
+}
+
+#prices li {
+	list-style-type: none;
+	background: url("../images/prices_list.jpg") no-repeat center left;
+	padding: 30px;
+	margin-top: -20px;
+}
+
+#cta {
+	color: #fff;
+	font-family: "Gill Sans MT";
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+	height: 234px;
+	background-image: url("../images/cta.jpg");
+}
+
+#cta h2 {
+	font-size: 48px;
+	float: right;
+	margin: 45px 145px 0px 80px;
+}
+
+#cta #slogan {
+	font-style: normal;
+	position: absolute;
+	top: 70px;
+	right: -75px;
+	color: #000;
+	margin-bottom: 5px;
+}
+
+#cta p {
+	font-size: 14px;
+	font-style: italic;
+	padding-top: 20px;
+	float: right;
+	margin: 5px 125px 45px 80px;
+	width: 300px;
+}
+
+#cta_picture1 {
+	width: 355px;
+	height: 222px;
+	position: absolute;
+	top: 15px;
+	left: 73px;
+}
+
+#cta_picture2 {
+	position: absolute;
+	left: 45px;
+	top: 117px;	
+	width: 40px;
+	height: 118px;
+}
+
+#cta_border {
+	position: absolute;
+	top: 105px;
+	right: 190px;
+}
+
+#copyright {
+	background: url("../images/footer_logo.jpg") no-repeat center left;
+	height: 42px;
+	margin-left: 98px;
+	padding-left: 100px;
+	padding-top: 20px;
+	color: #fff;
+	font-family: arial;
+	font-size: 11px;
+}
+
+#rss_logo p {
+	color: #fff;
+	font-family: arial;
+	font-size: 14px;
+	float: right;
+	margin-left: 5px;
+	margin-bottom: 6px;
+}
+
+#rss_logo {
+	position: absolute;
+	bottom: 20px;
+	right: 80px;
+}

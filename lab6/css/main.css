@@ -159,5 +159,11 @@ address {
 #content li {
 	font-style: normal;
 	color: #000;
+	font-family: arial;
 }
-/*------------------------------=Links--------------------------------------------------*/
+
+#content p {
+	font-style: normal;
+	color: #000;
+	margin-bottom: 10px;
+}

@@ -15,11 +15,14 @@ body {
 	margin: 0 auto;
 }
 
+/*---------------------------------------------level 1----------------------------------*/
 label {
-	float: left;
-	width: 100px;
+	width: 100%;
 	font-size: 18px;
 	font-weight: bold;
+	padding-right: 20px;
+	display: block;
+	padding-top: 20px;
 }
 
 #advanced-search h1 {
@@ -31,7 +34,6 @@ label {
 }
 
 #searchin {
-	float: right;
 	background-color: #404448;
 	border: 1px #000 solid;
 	width: 100px;
@@ -39,12 +41,8 @@ label {
 	text-align: center;
 	font: 15px/1.5em arial, sans-serif;
 	color: #fff;
-	margin-left: 40px;
 }
 
-#searchin:link {
-	background-color:;
-}
 
 #searchin:focus {
 	color: #D3E9F1;
@@ -58,7 +56,6 @@ label {
 
 
 #keywords {
-	float: right;
 	background-color: #404448;
 	border: 1px #000 solid;
 	width: 150px;
@@ -73,7 +70,6 @@ label {
 
 
 #words {
-	float: right;
 	color: #fff;
 	background-color: #404448;
 	border: 1px #000 solid;
@@ -81,7 +77,6 @@ label {
 	height: 20px;
 	text-align: center;
 	font: 15px/1.5em arial, sans-serif;
-	margin-left: 32px;
 	margin-bottom: 20px;
 }
 
@@ -96,8 +91,341 @@ label {
 }
 
 #keys {
-	width: 600px;
+	clear: both;
+	width: 100%;
+	height: 230px;
+	padding-left: 20px;
 }
+/*---------------------------------------------level 2----------------------------------*/
+#container-inner h1 {
+	width: 960px;
+	color: #D3E9F1;
+	background-color: #2D3135;
+	padding-top: 20px;
+	margin-left: -100px;
+}
+
+#name {
+	color: #fff;
+	background-color: #404448;
+	border: 1px #000 solid;
+	width: 150px;
+	height: 20px;
+	font: 15px/1.5em arial, sans-serif;
+}
+
+#name:focus {
+	box-shadow: 2px 2px 3px rgba(45,49,53, .4);
+}
+
+
+
+
+
+
+/*---------------------------------------------level 3----------------------------------*/
+#sign-up h1 {
+	width: 960px;
+	color: #D3E9F1;
+	background-color: #2D3135;
+	padding-top: 20px;
+	margin-left: -100px;
+}
+
+#email {
+	color: #fff;
+	background-color: #404448;
+	border: 1px #000 solid;
+	width: 150px;
+	height: 20px;
+	font: 15px/1.5em arial, sans-serif;
+	margin-bottom: 20px;
+}
+
+#email:focus {
+	box-shadow: 2px 2px 3px rgba(45,49,53, .4);
+}
+
+#password {
+	color: #fff;
+	background-color: #404448;
+	border: 1px #000 solid;
+	width: 150px;
+	height: 20px;
+	font: 15px/1.5em arial, sans-serif;
+	margin-bottom: 20px;
+}
+
+#password:focus {
+	box-shadow: 2px 2px 3px rgba(45,49,53, .4);
+}
+
+#password_confirmation {
+	color: #fff;
+	background-color: #404448;
+	border: 1px #000 solid;
+	width: 150px;
+	height: 20px;
+	font: 15px/1.5em arial, sans-serif;
+	margin-bottom: 20px;
+}
+
+#password_confirmation:focus {
+	box-shadow: 2px 2px 3px rgba(45,49,53, .4);
+}
+
+#profile_link {
+	color: #fff;
+	background-color: #404448;
+	border: 1px #000 solid;
+	width: 150px;
+	height: 20px;
+	font: 15px/1.5em arial, sans-serif;
+	margin-bottom: 20px;
+}
+
+#profile_link:focus {
+	box-shadow: 2px 2px 3px rgba(45,49,53, .4);
+}
+
+#field-agree-tos ul {
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+
+#container-inner {
+	margin-left: 100px;
+}
+
+.log-in {
+	margin-top: 20px;
+	width: 960px;
+	font-size: 20px;
+
+}
+
+.log-in a {
+	margin-left: 180px;
+	margin-top: -25px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	display: block;
+	width: 60px;
+	height: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 1px 3px rgba(45,49,53, .4);
+	background: #6596a5; /* Old browsers */
+	background: -moz-linear-gradient(top,  #6596a5 0%, #2d3135 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6596a5), color-stop(100%,#2d3135)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #6596a5 0%,#2d3135 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #6596a5 0%,#2d3135 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #6596a5 0%,#2d3135 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #6596a5 0%,#2d3135 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6596a5', endColorstr='#2d3135',GradientType=0 ); /* IE6-9 */
+}
+
+.log-in a:active {
+	box-shadow: 0 1px 3px rgba(45,49,53, .4);
+	background: #2d3135; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2d3135 0%, #6596a5 100%); /* FF3.6+ */
+	background: -webkit-linear-gradient(top,  #2d3135 0%,#6596a5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2d3135 0%,#6596a5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2d3135 0%,#6596a5 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2d3135 0%,#6596a5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d3135', endColorstr='#6596a5',GradientType=0 ); /* IE6-9 */
+}
+
+.introduction {
+	margin-top: 25px;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/*---------------------------------------------level 4----------------------------------*/
+
+#edit-profile {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#edit-profile h1 {
+	width: 960px;
+	color: #D3E9F1;
+	background-color: #2D3135;
+	padding-top: 20px;
+	margin-left: -100px;
+}
+
+#gender {
+	width: 200px;
+	margin-top: 12px;
+}
+
+#user {
+	width: 400px;
+	float: left;
+
+}
+#gender legend {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#dob {
+	margin-top: 24px;
+	width: 800px;
+	
+}
+
+#dob legend {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.bottom_section {
+	margin-top: -20px;
+}
+
+/*------------------------------------------Profile-------------------------------------*/
+#your_photo {
+	color: #fff;
+	background-color: #404448;
+	border: 1px #000 solid;
+	width: 150px;
+	height: 20px;
+	font: 15px/1.5em arial, sans-serif;
+}
+
+#your_photo:focus {
+	box-shadow: 2px 2px 3px rgba(45,49,53, .4);
+}
+
+
+
+
+/*------------------------------------------First/last----------------------------------*/
+#firstname {
+	color: #fff;
+	background-color: #404448;
+	border: 1px #000 solid;
+	width: 150px;
+	height: 20px;
+	font: 15px/1.5em arial, sans-serif;
+}
+
+#firstname:focus {
+	box-shadow: 2px 2px 3px rgba(45,49,53, .4);
+}
+
+#lastname {
+	color: #fff;
+	background-color: #404448;
+	border: 1px #000 solid;
+	width: 150px;
+	height: 20px;
+	font: 15px/1.5em arial, sans-serif;
+}
+
+#lastname:focus {
+	box-shadow: 2px 2px 3px rgba(45,49,53, .4);
+}
+
+/*------------------------------------------Birthdate-----------------------------------*/
+
+#dob_month {
+	background-color: #404448;
+	border: 1px #000 solid;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	font: 15px/1.5em arial, sans-serif;
+	color: #fff;
+}
+
+#dob_day {
+	background-color: #404448;
+	border: 1px #000 solid;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	font: 15px/1.5em arial, sans-serif;
+	color: #fff;
+}
+
+#dob_year {
+	background-color: #404448;
+	border: 1px #000 solid;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	font: 15px/1.5em arial, sans-serif;
+	color: #fff;
+}
+
+
+
+
+
+
+/*------------------------------------------About---------------------------------------*/
+#about {
+	width: 400px;
+}
+
+#about_you {
+	color: #fff;
+	background-color: #404448;
+	border: 1px #000 solid;
+	width: 400px;
+	height: 100px;
+	font: 15px/1.5em arial, sans-serif;
+}
+
+#about_you:focus {
+	box-shadow: 2px 2px 3px rgba(45,49,53, .4);
+}
+
+
+/*------------------------------------------Website URL---------------------------------*/
+#website_url {
+	color: #fff;
+	background-color: #404448;
+	border: 1px #000 solid;
+	width: 150px;
+	height: 20px;
+	font: 15px/1.5em arial, sans-serif;
+}
+
+#website_url:focus {
+	box-shadow: 0 2px 3px rgba(45,49,53, .4);
+}
+
+
+
+/*------------------------------------------Website Name--------------------------------*/
+#website_name {
+	color: #fff;
+	background-color: #404448;
+	border: 1px #000 solid;
+	width: 150px;
+	height: 20px;
+	font: 15px/1.5em arial, sans-serif;
+}
+
+#website_name:focus {
+	box-shadow: 0 2px 3px rgba(45,49,53, .4);
+}
+
 
 /*------------------------------------------Search Button-------------------------------*/
 
@@ -106,7 +434,7 @@ label {
 	padding-bottom: 5px;
 	font-size: 20px;
 	color: #fff;
-	width: 100px;
+	width: 200px;
 	height: 40px;
 	box-shadow: 0 1px 3px rgba(45,49,53, .4);
 	background: #6596a5; /* Old browsers */
